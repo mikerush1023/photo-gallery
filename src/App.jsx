@@ -1,41 +1,36 @@
 import React, { Component } from 'react'
 import { Link, Route, Switch } from 'react-router-dom'
+import { CategoryList } from './pages/CategoryList'
+import { PhotoList } from './pages/PhotoList'
+import { PhotoDetail } from './pages/PhotoDetail'
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
-      <>
-        <header>
-          <h1>Welcome to my SPA</h1>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Go Home</Link>
-              </li>
-              <li>
-                <Link to="/1">Page 1</Link>
-              </li>
-              <li>
-                <Link to="/2">Page 2</Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <Switch>
-          <Route exact path="/">
-            Home
-          </Route>
-          <Route exact path="/1">
-            Page 1
-          </Route>
-          <Route exact path="/2">
-            Page 2
-          </Route>
-          <Route path="*">Not Found</Route>
-        </Switch>
-      </>
+      <main>
+        <section className="hero">
+          <div className="hero-body">
+            <div className="container">
+              <h1 className="subtitle">A Photo Gallery</h1>
+              <h2 className="title">
+                <Link to="/">Home</Link>
+              </h2>
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
+          <Switch>
+            <Route exact path="/" component={CategoryList} />
+            <Route exact path="/:category" component={PhotoList} />
+            <Route
+              exact
+              path="/:category/:photoIndex"
+              component={PhotoDetail}
+            />
+          </Switch>
+        </section>
+      </main>
     )
   }
 }
-
-export default App

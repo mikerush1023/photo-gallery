@@ -1,0 +1,49 @@
+{
+  "caferacers": {
+    "title": "Cafe Racers",
+    "description": "This style of motorcycle became popular during the 1960's in England and the name comes from their common use for transportation through busy towns to visit popular cafés",
+    "photos": [
+      {
+        "title": "Honda Tornado",
+        "imageURL": "https://www.returnofthecaferacers.com/wp-content/uploads/2018/01/honda-tornado-caferacer-5-e1528170855486.jpg",
+        "sourceURL": "https://www.returnofthecaferacers.com/honda-cafe-racer/honda-tornado-caferacer/"
+      },
+      {
+        "title": "BMW R65",
+        "imageURL": "https://www.returnofthecaferacers.com/wp-content/uploads/2020/07/campbell-bmw-r65-0.jpg",
+        "sourceURL": "https://www.returnofthecaferacers.com/bmw-motorcycles-cafe-racer/road-to-recovery-r65/"
+      },
+      {
+        "title": "Buell M2",
+        "imageURL": "https://www.returnofthecaferacers.com/wp-content/uploads/2020/06/taverne-buell-m2-0.jpg",
+        "sourceURL": "https://www.returnofthecaferacers.com/buell-cafe-racer/taverne-m2-cyclone/"
+      },
+      {
+        "title": "Triumph Thruxton 900",
+        "imageURL": "https://www.returnofthecaferacers.com/wp-content/uploads/2020/05/nova-thruxton-900-0.jpg",
+        "sourceURL": "https://www.returnofthecaferacers.com/triumph-cafe-racer/nova-thruxton-900/"
+      }
+    ]
+  },
+  "interiordesigns": {
+    "title": "Interior Designs",
+    "description": "Modern interior design appeals to my style and I really enjoy seeing innovative ideas to one day put in my own home",
+    "photos": [
+      {
+        "title": "Glass Floor Over Water",
+        "imageURL": "https://static.boredpanda.com/blog/wp-content/uploads/2015/02/amazing-interior-ideas-111__880.jpg",
+        "sourceURL": "https://www.boredpanda.com/amazing-interior-ideas/?media_id=161450"
+      },
+      {
+        "title": "Ceiling Libraries",
+        "imageURL": "https://static.boredpanda.com/blog/wp-content/uploads/2015/02/amazing-interior-ideas-24-1__880.jpg",
+        "sourceURL": "https://www.boredpanda.com/amazing-interior-ideas/?media_id=161521"
+      },
+      {
+        "title": "Ammonite Washbasin",
+        "imageURL": "https://static.boredpanda.com/blog/wp-content/uploads/2015/02/bathroom-design-ideas-4__880.jpg",
+        "sourceURL": "https://www.boredpanda.com/amazing-interior-ideas/?media_id=161593"
+      }
+    ]
+  }
+}
